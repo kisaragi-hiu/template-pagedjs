@@ -1,0 +1,16 @@
+* My template for creating documents with PagedJS
+
+- TailwindCSS + PostCSS
+- Hugo
+- PagedJS
+- Tied together with Make
+
+Commands:
+
+- make dev :: start Hugo and Tailwind servers
+- make public :: build the site into public/
+
+Todos:
+
+- [ ] Make command to build a PDF (perhaps through pagedjs-cl)
+  - Maybe that's not necessary

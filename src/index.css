@@ -11,6 +11,12 @@
   }
 }
 
+@layer utilities {
+  .break-before {
+    break-before: page;
+  }
+}
+
 @page {
   size: A4;
 }

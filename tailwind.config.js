@@ -8,7 +8,7 @@ let cjkFallback = [
 
 module.exports = {
   purge: {
-    content: ["./layouts/**/*.html"],
+    content: ["./layouts/**/*.html", "./content/**/*"],
   },
   mode: "jit",
   darkMode: false, // or 'media' or 'class'

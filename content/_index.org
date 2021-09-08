@@ -5,3 +5,9 @@ Some text
 * Another headline
 
 Some more text
+
+#+begin_export html
+<div class="break-before"></div>
+#+end_export
+
+* This should be on another page

@@ -1,0 +1,14 @@
+hasCJKLanguage: true
+
+ignoreFiles:
+  - README\.md$
+  - readme\.md$
+  - README\.org$
+  - readme\.org$
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: false
